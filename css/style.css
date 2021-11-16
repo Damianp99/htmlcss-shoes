@@ -15,33 +15,40 @@ body{
 .page{
     height: 100vh;
     background-color: #FF0000;
+    position: relative;
+}
+
+.sneaker{
+    height: 400px;
     background-image: url(../img/01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50% ,    -50%);
+    
 }
 
 .page-hilfiger{
     height: 100vh;
-    background-color: #FF0000;
-    background-image: url(../img/02.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #008000;
+    
 }
 
 .page-converse{
     height: 100vh;
-    background-color: #FF0000;
-    background-image: url(../img/03.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #FFFF00;
+    
 }
 
 h2{
     color: #FFFF00;
     font-weight: 900;
-    font-size: 50px;
-    
+    font-size: 60px;
+    position: relative;
+    top: 100%;
+    left: 0%;
+    text-align: center;
 }
