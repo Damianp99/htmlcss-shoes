@@ -1,0 +1,47 @@
+/* GENERICS */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* MAIN CONTENT */
+
+.page{
+    height: 100vh;
+    background-color: #FF0000;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-hilfiger{
+    height: 100vh;
+    background-color: #FF0000;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-converse{
+    height: 100vh;
+    background-color: #FF0000;
+    background-image: url(../img/03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    color: #FFFF00;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
