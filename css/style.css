@@ -8,6 +8,41 @@
 
 body{
     font-family: sans-serif;
+    overflow: hidden;
+}
+/* NAV */
+
+.navigator{
+    position: fixed;
+    top:5%;
+    right:5%;
+    z-index: 1;
+   
+
+}
+ul{
+    display: inline;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+a{
+     text-decoration: none;  
+     display:inline-block;
+     width: 50px;
+     height: 50px;
+     background-color:white ;
+     color: black;
+     font-size: 20px;
+     font-weight: 900;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 50px;
+     margin: 15px;
 }
 
 /* MAIN CONTENT */
@@ -18,7 +53,7 @@ body{
     position: relative;
 }
 
-.sneaker{
+#sneaker{
     height: 400px;
     background-image: url(../img/01.png);
     background-repeat: no-repeat;
@@ -26,21 +61,49 @@ body{
     background-size: cover;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate( -50% ,    -50%);
+    top: 35%;
+    transform: translate( -50% , -50%);
     
 }
 
 .page-hilfiger{
     height: 100vh;
     background-color: #008000;
+    position: relative;
     
+}
+
+#hilfiger{
+    height: 400px;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate( -50% , -50%);
+
 }
 
 .page-converse{
     height: 100vh;
     background-color: #FFFF00;
+    position: relative;
     
+}
+
+#converse{
+    height: 400px;
+    background-image: url(../img/03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate( -50% , -50%);
+
 }
 
 h2{
@@ -51,4 +114,8 @@ h2{
     top: 100%;
     left: 0%;
     text-align: center;
+}
+
+.different-h2{
+    color: #008000;
 }
